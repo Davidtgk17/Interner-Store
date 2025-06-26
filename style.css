@@ -355,7 +355,6 @@ header a {
 
 .container-right {
     padding-left: calc((100% - 1120px) / 2);
-    padding: 0 15px
 }
 
 /* .swiper-slide {
@@ -769,6 +768,10 @@ header a {
 
 
 @media(max-width:1200px) {
+    .container-right {
+        padding: 0 15px
+    }
+
     .negr {
         background-image: url('Elements/Image\ Placeholder.jpg');
     }
